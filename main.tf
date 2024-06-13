@@ -80,7 +80,7 @@ module "alb" {
   tags = {  
     Environment = "dev"  
   }  
-}  
+
   
 module "blog_sg" {  
   source  = "terraform-aws-modules/security-group/aws"  
