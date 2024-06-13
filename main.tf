@@ -68,11 +68,11 @@ module "alb" {
     }
   ]
   
-  http_tcp_listners = [
+  http_tcp_listeners = [
     {
       port = 80
       protcol = "HTTP"
-      target_groups_index = 0
+      target_group_index = 0
     }
   ]
 
